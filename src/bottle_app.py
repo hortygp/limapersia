@@ -7,13 +7,14 @@
 . como commitar usando o comando git
 
 sem classes neste modulo:
-   
+
 Changelog
 ---------
 ..versionadded::    20.07
        Adiciona o gerenciador de chamadas http via bottle
 """
 from bottle import default_app, route
+
 
 @route('/')
 def hello_world():
